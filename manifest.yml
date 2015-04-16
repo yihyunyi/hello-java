@@ -1,0 +1,6 @@
+---
+applications:
+- name: hello-java
+  memory: 512M
+  instances: 1
+  path: target/hello-spring.war
