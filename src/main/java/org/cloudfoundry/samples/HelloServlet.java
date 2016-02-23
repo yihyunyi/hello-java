@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
 		response.setContentType("text/plain");
 		response.setStatus(200);
 		PrintWriter writer = response.getWriter();
-		writer.println("Hello PMD Test");
+		writer.println("Hello PMD Test1");
 		writer.close();
 	}
 }
